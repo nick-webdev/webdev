@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+    background-color: black;
+	color: #47B022
+}
+
+#wrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	
+}
+
+header
+{
+	padding: 0px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	border-bottom-width:2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+
+nav {
+	background-color: black;
+	background-image: url(Food-Doughnut-icon.png);
+	text-align: center;
+	margin-top: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-size: 1.2em;
+    height:135px;
+}
+
+nav ul	
+{	list-style-type: none;
+	padding-left: 0;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+nav a
+{
+	 text-decoration: none;
+}
+
+nav a:link 	{ color: limegreen; }
+nav a:visited { color: #173B0B;	}
+nav a:hover	
+{ 
+	color:#FFC;	
+   	text-decoration: underline;
+}
+
+nav li	
+{ 
+	display: inline;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0.75em;
+	padding-right: 0.75em;	
+}
+
+nav ul	
+{	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	text-align: center;
+	display: inline;  
+}
+
+#sddm li
+{	margin: 0;
+	display:inline-block; 
+}
+
+#sddm li a
+{
+	display: inline-block;
+}
+
+main {
+	display:block;
+	background-color: #848484;
+}
+
+#newmain {
+	background-color: black;
+	padding: 10px;
+	color: limegreen;
+	border: 2px solid #000;
+	margin-bottom: 5px;
+}
+
+footer
+{
+	background-color:silver;
+	padding: 4px;
+	text-align: center;	
+	border: 2px solid #000;
+
+}
+
+#feedback
+{
+    background-color:silver;
+    color: black;
+}
+
+#addCustomer
+{
+    background-color:silver;
+    color: black;
+}
+#Contact
+{
+    background-color:silver;
+    color: black;
+}
+
+#AddProduct
+{
+	align-content:center;
+}
+#cssmenu {
+	padding: 0;
+	border: 0;
+	width: 900px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	z-index: 40;
+	position: relative;
+}
+
+#cssmenu:hover{	z-index: 150;}
+#cssmenu ul,
+#cssmenu li {
+  list-style: none;
+  margin: 0;
+}
+#cssmenu ul {
+  position: relative;
+}
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align:auto;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu ul ul li {
+  float: none;
+}
+#cssmenu ul ul ul {
+  top: 0;
+  left: 190px;
+  width: 190px;
+}
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+    z-index: 600;
+}
+#cssmenu ul ul {
+  bottom: 0;
+  left: 0;
+}
+#cssmenu ul ul {
+  margin-top: 0;
+}
+#cssmenu ul ul li {
+  font-weight: normal;
+}
+#cssmenu a {
+  display: block;
+  line-height: normal;
+  text-decoration: none;
+}
+
+#apDiv1 {
+	width: 254px;
+	height: 93px;
+	left: 266px;
+	top: 117px;
+}
